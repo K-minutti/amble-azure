@@ -3,10 +3,9 @@ import path from "path";
 const app = express();
 
 //middlewares
-app.use(express.static(path.join(__dirname,"..", "app/public")))// build in prod
-
+app.use(express.static(path.join(__dirname, "..","/build/")))// build in prod
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname,".." ,"/app/public/index.html"))// include build for prod
+    res.sendFile(path.join(__dirname,"..","/build/index.html"))// include build for prod
 })
 
 app.listen(3000, () => {
