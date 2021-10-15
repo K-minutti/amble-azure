@@ -1,0 +1,19 @@
+{
+  "name": "amble",
+  "version": "1.0.0",
+  "description": "An app to write meditations and reflect deeper with the help of AI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-minutti/amble-azure.git"
+  },
+  "author": "Kevin Minutti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/K-minutti/amble-azure/issues"
+  },
+  "homepage": "https://github.com/K-minutti/amble-azure#readme"
+}
